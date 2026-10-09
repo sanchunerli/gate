@@ -13,9 +13,9 @@ jobs:
       contents: read
     env:
       TOKEN: ${{ secrets.PAT_TOKEN }}
-      REPO: yxrs2529495693/gate
-      WF_ID_VPNCHECK: 377497676
-      WF_ID_SELF: 379295501
+      REPO: sanchunerli/gate
+      WF_ID_VPNCHECK: 377530780
+      WF_ID_SELF: 379298997
     steps:
       - name: Clean workflow runs
         run: |
